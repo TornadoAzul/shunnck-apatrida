@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Six+Caps&display=swap');
+
+:root {
+    --rojo: #FF353B;
+    --shunnck: #FE5454;
+    --naranja: #FF6C17;
+    --amarillo: #FFD400;
+    --verde: #00D562;
+    --azul: #485BFF;
+    --celeste: #01D6FE;
+    --indigo: #8146FF;
+    --morado: #C75FFB;
+    --rosa: #FC46AA;
+    --marron: #AD653D;
+    --negro: #282828;
+    --oscuro: #151515;
+    --gris: #e2e2e2;
+    --magenta: #FF2D55;
+    --blanco: #F8F8F8;
+    --cyan: #1AD8B6;
+    --nebula: #222729;
+    --darknebula: #191B1D;
+}
+
+body {
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-family: "Gabarito", sans-serif;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 350px;
+    width: 280px;
+}
+
+.marco {
+    padding: 10%;
+    width: 100%;
+}
+
+.base {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenido {
+    max-width: 450px;
+    min-width: 300;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--shunnck);
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Caudex', serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: var(--shunnck);
+}
+
+.ints-h1 {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+input {
+    padding: 10px;
+    width: 93%;
+    background-color: var(--gris); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--nebula); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+input {
+    padding: 10px;
+    width: 93%;
+    background-color: var(--gris); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--nebula); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Six+Caps&display=swap');
+
+:root {
+    --rojo: #FF353B;
+    --shunnck: #FE5454;
+    --naranja: #FF6C17;
+    --amarillo: #FFD400;
+    --verde: #00D562;
+    --azul: #485BFF;
+    --celeste: #01D6FE;
+    --indigo: #8146FF;
+    --morado: #C75FFB;
+    --rosa: #FC46AA;
+    --marron: #AD653D;
+    --negro: #282828;
+    --oscuro: #151515;
+    --gris: #e2e2e2;
+    --magenta: #FF2D55;
+    --blanco: #F8F8F8;
+    --cyan: #1AD8B6;
+    --nebula: #222729;
+    --darknebula: #191B1D;
+}
+
+body {
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-family: "Gabarito", sans-serif;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 350px;
+    width: 280px;
+}
+
+.marco {
+    padding: 10%;
+    width: 100%;
+}
+
+.base {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contenido {
+    max-width: 450px;
+    min-width: 300;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--shunnck);
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Caudex', serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--shunnck);
+}
+
+.ints-h1 {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+input {
+    padding: 10px;
+    width: 93%;
+    background-color: var(--gris); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--nebula); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+input {
+    padding: 10px;
+    width: 93%;
+    background-color: var(--gris); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--nebula); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+textarea {
+    width: calc(100% - 20px); /* Resta 20px para dejar espacio para el padding */
+    height: calc(100% - 20px); /* Resta 20px para dejar espacio para el padding */
+    padding: 10px; /* Ajusta el padding según sea necesario */
+    background-color: var(--gris); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--nebula); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+    resize: none; /* Evita que el usuario pueda redimensionar el textarea */
+    box-sizing: border-box; /* Considera el padding y el borde en el ancho y alto total */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 99%;
+    background-color: var(--shunnck); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--blanco); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+
+h2 {
+    margin-top: 0;
+    font-family: "Gabarito", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.ints-h2 {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--naranja);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: "Gabarito", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 0;
+    font-family: "Caudex";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+button {
+    font-family: "Gabarito", sans-serif;
+    border: none; /* Sin bordes */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: var(--shunnck); /* Color naranja */
+    padding: 10px 20px; /* Tamaño 30px */
+    font-size: 16px; /* Tamaño de fuente */
+    color: var(--blanco); /* Color del texto */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    outline: none; /* Quita el contorno al hacer click */
+}
+
+.ints-p {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: justify;
+    -webkit-hyphens:auto;
+    hyphens: auto;
+    line-height: 1.1;
+}
+
+hr {
+    color: var(--negro);
+}
+
+.descargas {
+    display: flex;
+    justify-content: center;
+}
+
+.descargas ion-icon {
+    font-size: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ceresfera {
+    height: 70px;
+    fill: var(--negro);
+}
+
+.ints-fav {
+    height: 70px;
+    fill: var(--negro);
+}
+
+.ints-a {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--naranja);
+}
+
+.ceresfera-contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--darknebula);
+      color: var(--blanco);
+    }
+
+    hr {
+        color: var(--blanco);
+    }
+
+    .ceresfera {
+        fill: var(--blanco);
+    }
+    input {
+        background-color: var(--darknebula); /* Fondo gris */
+        color: var(--blanco); /* Texto blanco */
+    }
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 99%;
+    background-color: var(--shunnck); /* Fondo gris */
+    border: none; /* Sin borde */
+    color: var(--blanco); /* Texto blanco */
+    font-size: 20px; /* Texto tamaño 20px */
+    font-family: "Gabarito", sans-serif;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+
+h2 {
+    margin-top: 0;
+    font-family: "Gabarito", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+.ints-h2 {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--naranja);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: "Gabarito", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 0;
+    font-family: "Caudex";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+button {
+    font-family: "Gabarito", sans-serif;
+    border: none; /* Sin bordes */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: var(--shunnck); /* Color naranja */
+    padding: 10px 20px; /* Tamaño 30px */
+    font-size: 16px; /* Tamaño de fuente */
+    color: var(--blanco); /* Color del texto */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    outline: none; /* Quita el contorno al hacer click */
+}
+
+.ints-p {
+    margin-top: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: justify;
+    -webkit-hyphens:auto;
+    hyphens: auto;
+    line-height: 1.1;
+}
+
+hr {
+    color: var(--negro);
+}
+
+.descargas {
+    display: flex;
+    justify-content: center;
+}
+
+.descargas ion-icon {
+    font-size: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ceresfera {
+    height: 70px;
+    fill: var(--negro);
+}
+
+.ints-fav {
+    height: 70px;
+    fill: var(--negro);
+}
+
+.ints-a {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--naranja);
+}
+
+.ceresfera-contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--darknebula);
+      color: var(--blanco);
+    }
+
+    hr {
+        color: var(--blanco);
+    }
+
+    .ceresfera {
+        fill: var(--blanco);
+    }
+    input {
+        background-color: var(--negro); /* Fondo gris */
+        color: var(--blanco); /* Texto blanco */
+    }
+}
